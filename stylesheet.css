@@ -39,15 +39,20 @@ ol li {
   line-height: 3em;
 }
 
-.desc {
+section {
+  width: 50vw;
+  border-radius: 4px;
+}
+
+.desc,
+.steps{
   background-color: var(--element);
+  padding: 4px, 4px, 8px, 4px;
 }
 
 .ingr {
   background-color: var(--background);
+  padding: 4px, 4px, 8px, 4px;
 }
 
-.steps {
-  background-color: var(--element);
-}
   
