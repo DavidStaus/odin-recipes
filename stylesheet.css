@@ -1,3 +1,4 @@
+/* color variables */
 :root {
   --heading: #FC600A;
   --background: #F7E0D4;
@@ -5,6 +6,16 @@
   --icon: #1489B8;
   --text: #092834
 }
+
+/* home symbol styling  */
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
 
 body {
   font-family: Ubuntu, Arial, Helvetica, sans-serif;
