@@ -17,7 +17,7 @@ ul.main li {
 }
 
 li {
-  line-height: 3em;
+  line-height: 1.5em;
 }
 
 ul li {
@@ -25,5 +25,5 @@ ul li {
 }
 
 ol li {
-  line-height: 4em;
+  line-height: 3em;
 }
