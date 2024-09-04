@@ -1,5 +1,14 @@
+:root {
+  --heading: #FC600A;
+  --background: #F7E0D4;
+  --element: #347B98;
+  --icon: #1489B8;
+  --text: #092834
+
 body {
   font-family: Ubuntu, Arial, Helvetica, sans-serif;
+  color: var(--text);
+  background-color: var(--background):
 }
 
 h1, h2, h3 {
@@ -7,7 +16,7 @@ h1, h2, h3 {
 }
 
 .recipetitle {
-  color: orange;
+  color: var(--heading);
   font-variant: small-caps;
   letter-spacing: 1px;
 }
@@ -27,3 +36,16 @@ ul li {
 ol li {
   line-height: 3em;
 }
+
+.desc {
+  background-color: var(--element);
+}
+
+.ingr {
+  background-color: var(--background);
+}
+
+.steps {
+  background-color: var(--element);
+}
+  
