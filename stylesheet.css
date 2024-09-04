@@ -16,9 +16,12 @@ ul.main li {
   list-style-type: none; 
 }
 
+li {
+  line-height: 3em;
+}
+
 ul li {
   line-height: 2em;
-
 }
 
 ol li {
