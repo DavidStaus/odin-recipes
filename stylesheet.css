@@ -6,3 +6,21 @@ h1, h2, h3 {
   font-family: Roboto, Arial, Helvetica, serif;
 }
 
+.recipetitle {
+  color: orange;
+  font-variant: small-caps;
+  letter-spacing: 1px;
+}
+
+ul.main li {
+  list-style-type: none; 
+}
+
+ul li {
+  line-height: 1.25em;
+
+}
+
+ol li {
+  line-height: 1.5em;
+}
