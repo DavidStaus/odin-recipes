@@ -1,10 +1,11 @@
 /* color variables */
 :root {
-  --heading: #FC600A;
+  --heading: #ff7a32;
   --background: #F7E0D4;
+  --element2: #faeae0;
   --element: #347B98;
   --icon: #1489B8;
-  --text: #092834
+  --text: #092834;
 }
 
 /* home symbol styling  */
@@ -13,9 +14,16 @@
   'FILL' 0,
   'wght' 400,
   'GRAD' 0,
-  'opsz' 24
+  'opsz' 64
 }
 
+a.home {
+  text-decoration: none;
+}
+
+a.home:visited {
+  color: var(--icon);
+}
 
 body {
   font-family: Ubuntu, Arial, Helvetica, sans-serif;
@@ -28,10 +36,19 @@ h1, h2, h3 {
   color: var(--heading);
 }
 
+.indextitle, 
 .recipetitle {
   color: var(--heading);
   font-variant: small-caps;
   letter-spacing: 1px;
+  text-align: center;
+  font-size: 64px;
+}
+
+.foodpic {
+  display: block;
+  margin: 40px auto;
+  width: 50vw;
 }
 
 ul.main li {
@@ -53,17 +70,29 @@ ol li {
 section {
   width: 50vw;
   border-radius: 4px;
-  padding: 4px, 4px, 8px, 4px;
+  padding: 0.1vw 0.5vw 0.5vw;
+}
+
+.sectiontitle {
+  letter-spacing: 1px;
+  font-variant: small-caps;
+  font-weight: 1000;
+  color: var(--heading);
 }
 
 .desc,
 .steps{
+  display: block;
+  margin: 10px auto;
   background-color: var(--element);
+  color: white;
 }
 
 .ingr {
-  background-color: var(--background);
+  display: block;
+  margin: 10px auto;
+  background-color: var(--element2);
 }
-}
+
 
   
