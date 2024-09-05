@@ -27,8 +27,10 @@
 }
 
 .home {
-  margin-bottom: 10px;
+  position: fixed;
+  vertical-align: top;
 }
+
 /* General */
 
 body {
@@ -118,6 +120,7 @@ ul.main li {
   text-align: center;
   font-size: min(64px, 8vw);
   margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 /* Recipes */
