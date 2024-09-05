@@ -88,6 +88,7 @@ hr {
 
 .main a {
   box-sizing: border-box;
+  display: inline-block;
   width: 6em;
   background-color: var(--icon);
   padding: 1em 2em;
