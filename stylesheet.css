@@ -105,6 +105,7 @@ ul.main {
   width: 50vw;
   height: 50vw;
   border-radius: 30px;
+  box-shadow: 4px 4px 8px black;
 }
 
 ul.main li {
