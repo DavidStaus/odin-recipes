@@ -84,6 +84,8 @@ hr {
 
 .recipemain {
   box-shadow: 4px 4px 8px black;
+  width: 65vw
+  border-radius: 20px;
 }
 
 .main a {
