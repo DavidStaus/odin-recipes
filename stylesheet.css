@@ -91,12 +91,12 @@ hr {
 ul.main {
   margin: 40px 25vw;
   padding-left: 0px;
-  display: flex;
-  justify-content: center;
+  background-color: var(--background);
 }
 
 ul.main li {
   list-style-type: none; 
+  display: inline-block;
 }
 
 .ingr li {
