@@ -82,6 +82,10 @@ hr {
   width: 65vw;
 }
 
+.recipemain {
+  box-shadow: 4px 4px 8px black;
+}
+
 .main a {
   box-sizing: border-box;
   width: 6em;
