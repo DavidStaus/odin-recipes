@@ -59,7 +59,7 @@ h1, h2, h3 {
 }
 
 .recipetitle {
-  background-color: var(--element);
+  background-color: var(--icon);
   padding: max(3vw, 0.5em);
   margin: 0 auto;
   width: 65vw;
