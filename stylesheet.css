@@ -36,6 +36,10 @@ main.index {
   text-align: center;
 }
 
+.home {
+  margin-bottom: 10px;
+}
+
 body {
   font-family: Ubuntu, Arial, Helvetica, sans-serif;
   color: var(--text);
