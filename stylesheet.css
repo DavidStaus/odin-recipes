@@ -95,7 +95,7 @@ hr {
 .main a {
   box-sizing: border-box;
   display: inline-block;
-  width: 6em;
+  width: 11em;
   background-color: var(--icon);
   padding: 1em 2em;
   color: white;
@@ -114,7 +114,7 @@ ul.main {
   padding-left: 0px;
   background-color: var(--background);
   width: 50vw;
-  height: 50vw;
+  height: 80%;
   border-radius: 30px;
   box-shadow: 4px 4px 8px black;
 }
