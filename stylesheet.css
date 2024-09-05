@@ -12,6 +12,7 @@
   --element: #347B98;
   --icon: #1489B8;
   --text: #092834;
+  --iconhover: #3eb9ea;
 }
 
 /* home symbol styling  */
@@ -83,13 +84,18 @@ hr {
 
 .main a {
   box-sizing: border-box;
-  width: 6em;½
+  width: 6em;
   background-color: var(--icon);
   padding: 1em 2em;
   color: white;
   margin: 0.5em 1em;
   text-decoration: none;
   border-radius: 5px;
+  box-shadow: 1px 1px 4px black;
+}
+
+.main a:hover {
+  background-color: var(--iconhover);
 }
 
 ul.main {
