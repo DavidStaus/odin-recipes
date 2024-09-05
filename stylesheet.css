@@ -20,7 +20,7 @@
 
 .material-symbols-outlined {
   font-variation-settings:
-  'FILL' 0,
+  'FILL' 1,
   'wght' 400,
   'GRAD' 0,
   'opsz' 64
@@ -29,7 +29,6 @@
 .home {
   margin-bottom: 10px;
 }
-
 /* General */
 
 body {
@@ -72,7 +71,6 @@ main.index {
 }
 
 .main a {
-  box-sizing: border-box;
   display: inline-block;
   width: 11em;
   background-color: var(--icon);
@@ -89,7 +87,6 @@ main.index {
 }
 
 hr {
-  box-sizing: border-box;
   margin: auto;
   width: 50vw;
   color: var(--element);
