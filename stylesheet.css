@@ -83,7 +83,7 @@ hr {
 
 .main a {
   box-sizing: border-box;
-  width: 6em;
+  width: 6em;½
   background-color: var(--icon);
   padding: 1em 2em;
   color: white;
@@ -96,14 +96,15 @@ ul.main {
   margin: 40px 25vw;
   padding-left: 0px;
   background-color: var(--background);
-  display: inline-block;
   width: 50vw;
-  height: 75vw;
+  height: 50vw;
   border-radius: 30px;
 }
 
 ul.main li {
   list-style-type: none; 
+  display: inline-block;
+  margin-top: 50px;
 }
 
 .ingr li {
